@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  background: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmluYXJ5JTIwY29kZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+
+.container{
+  background-color: rgb(86, 84, 84);
+  width: 500px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.input-container{
+  width: 100%;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.input::placeholder{
+  letter-spacing: 0;
+}
+.fa-copy{
+  cursor: pointer;
+  opacity: 0.3;
+}
+.fa-copy:hover{
+  opacity: 0.7;
+}
+
+.btn{
+  padding: 10px 20px;
+  background:black;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: green;
+}
+.btn:active{
+  transform: scale(0.90);
+}
+
+.alert-container{
+  position: fixed;
+  width: 300px;
+  height: 50px;
+  background-color: lightgreen;
+  display: flex;
+  right:20px;
+  bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: 0.4s;
+}
+
+.active.alert-container{
+  right: -9999px;
+}
