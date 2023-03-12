@@ -1,3 +1,4 @@
 <h1 align = "center"> Random Password Generator </h1>
 
-![image](https://user-images.githubusercontent.com/108802783/214225790-d9083d89-2c7b-40c8-ab3e-d6dbf1abe98f.png)
+
+![password](https://user-images.githubusercontent.com/108802783/224552036-cff2190e-b2de-4c1d-930e-9d2d401c2d9a.jpg)
