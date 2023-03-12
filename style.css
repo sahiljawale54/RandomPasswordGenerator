@@ -108,3 +108,9 @@ h4{
 .active.alert-container{
   right: -9999px;
 }
+
+@media screen  and (max-width:480px){
+  .container{
+    transform: scale(0.7);
+  }
+}
