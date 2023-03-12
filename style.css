@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-  background-color: rgb(86, 84, 84);
+  background-color: #273549;
   width: 500px;
   margin: 10px;
   border-radius: 10px;
@@ -18,23 +18,46 @@ body{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.title{
+  font-size: 3rem;
+  width:33rem;
+  color: white;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+span{
+  color: #4ADF86;
+}
+
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+  color: #D5D4D8;
+}
+
 .input-container{
   width: 100%;
-  border: solid 2px black;
+  background-color: #2F3E53;
   border-radius: 10px;
   padding: 10px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #D5D4D8;
+  
 }
 
 .input{
   border: none;
   outline: none;
   background-color: transparent;
-  font-size: 24px;
-  letter-spacing: 3px;
+  font-size: 19px;
+  letter-spacing: 5px;
+  color: #55F991;
 }
 
 .input::placeholder{
@@ -50,17 +73,17 @@ body{
 
 .btn{
   padding: 10px 20px;
-  background:black;
-  color: white;
+  background:#4ADF86;
+  color: black;
   border: none;
-  margin: 10px 0;
-  border-radius: 5px;
+  margin: 20px 0;
+  border-radius: 7px;
   font-size: 20px;
   cursor: pointer;
 }
 
 .btn:hover{
-  background-color: green;
+  background-color: #4ADF86;
 }
 .btn:active{
   transform: scale(0.90);
@@ -70,7 +93,7 @@ body{
   position: fixed;
   width: 300px;
   height: 50px;
-  background-color: lightgreen;
+  background-color: #4ADF86;
   display: flex;
   right:20px;
   bottom: 20px;
